@@ -45,18 +45,6 @@ cp .env.example .env
 # Edit .env file with your API keys and configuration
 ```
 
-## Configuration
-
-1. Make.com Setup:
-   - Follow the detailed setup guide in `docs/make_setup.md`
-   - Configure scenarios for each data source
-   - Update webhook URLs in the configuration
-
-2. API Configuration:
-   - Set up API keys in your `.env` file
-   - Configure rate limits and scheduling
-   - Adjust search parameters as needed
-
 ## Usage
 
 1. Run the agent:
@@ -72,25 +60,4 @@ python main.py --schedule weekly
 3. Customize search parameters:
 ```bash
 python main.py --topics "machine learning, computer vision" --timeframe "2w"
-```
-
-## Project Structure
-
-```
-├── src/
-│   ├── scrapers/
-│   │   ├── linkedin_scraper.py
-│   │   ├── github_scraper.py
-│   │   └── google_scraper.py
-│   ├── analysis/
-│   │   └── trend_analyzer.py
-│   └── utils/
-│       └── make_connector.py
-├── docs/
-│   └── make_setup.md
-├── config/
-│   └── default_config.yaml
-├── tests/
-├── requirements.txt
-└── main.py
 ```
