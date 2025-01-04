@@ -94,21 +94,3 @@ python main.py --topics "machine learning, computer vision" --timeframe "2w"
 ├── requirements.txt
 └── main.py
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [LangGraph](https://github.com/langchain-ai/langgraph)
-- [Make.com](https://www.make.com)
-- OpenAI for GPT-4 API
